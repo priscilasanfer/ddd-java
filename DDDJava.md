@@ -22,4 +22,15 @@ Resumo:
 
 ## 02. Aggregates
 
+O que é uma invariante?
+- É uma regra de negócio que deve sempre ser verdadeira para os objetos serem válidos.
+  Se um aluno tiver mais do que 2 telefones em nosso sistema, essa regra foi violada, logo, o Aluno estará em um estado inválido. 
+  Invariantes nada mais são do que regras de negócio que precisam ser verificadas para garantir sua consistência.
+  
+*Aggregates*
+O termo Aggregate já foi citado em treinamentos anteriores, mas como recordar é viver, deixo aqui um breve artigo do Martin Fowler sobre o assunto: https://martinfowler.com/bliki/DDD_Aggregate.html
 
+Resumo:
+- Conhecemos o conceito de Aggregates;
+- Entendemos o que é uma invariante;
+- Vimos que persistência de Aggregates é um assunto complexo, pois envolve infraestrutura.
