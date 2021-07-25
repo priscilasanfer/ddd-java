@@ -52,4 +52,26 @@ Resumo:
 - Aprendemos a implementar, emitir e reagir a um evento de domínio.
 
 
+## 04. Contextos delimitados
+
+Qual a vantagem de separar nossa aplicação em contextos delimitados (Bounded Contexts)?  
+- Flexibilidade  
+  Com contextos bem delimitados, podemos ter equipes separadas para trabalhar em cada um dos contextos e além disso eles podem até virar projetos separados, evoluindo individualmente.  
+  
+*Bounded Contexts*  
+Bounded Contexts, ou contextos delimitados, são um dos conceitos mais complexos de entender e implementar do estudo do DDD.  
+Vale a pena leituras mais aprofundadas para conhecer técnicas que envolvem esse princípio.  
+Aqui deixo um breve artigo com uma introdução ao tema: https://martinfowler.com/bliki/BoundedContext.html  
+
+Resumo:
+- Conhecemos o conceito de Bounded Contexts ou Contextos Delimitados;
+- Vimos que a separação em contextos nos dá mais flexibilidade porém aumenta (e muito) a complexidade;
+- Conhecemos o desenho conhecido como Mapa de Contexto.
+
+
+## 05. Contexto compartilhado  
+
+
+
+
 
