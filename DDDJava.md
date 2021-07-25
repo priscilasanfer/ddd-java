@@ -87,6 +87,31 @@ Resumo:
 - Vimos que cada contexto pode fornecer seus Use Cases de forma independente.
 
 
+## 06. Camada Anticorrupção
+
+Entendemos que contextos delimitados podem acabar evoluindo nosso sistema para se tornar um sistema distribuído.  
+O que é um sistema distribuído, na prática?  
+- É um sistema que embora pareça ser um para o usuário, é constituído de vários outros sistemas menores.  
+  Os famosos microsserviços são um tipo de sistemas distribuídos.  
+  Com sistemas distribuídos você ganha muitas vantagens porém também há desvantagens, como foi citado no vídeo.  
+  
+*Referências*  
+DDD é um assunto com muito conteúdo e seria impossível colocar tudo em cursos em vídeo. Há vários livros que são “leituras obrigatórias” para quem quer se aprofundar na área.  
+
+- O livro que originou o termo DDD: https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651/
+- Uma releitura com uma linguagem um pouco mais palatável: https://www.amazon.com.br/Implementando-Domain-Driven-design-Vernon/dp/8576089521/
+- Um livro prático sobre implementação em Java com SpringBoot de conceitos do DDD: https://www.amazon.com.br/Domain-Driven-Design-Spring-Boot-ebook/dp/B07K5W7CTZ
+
+Há ainda diversos canais do YouTube, blogs e sites que falam sobre DDD. Vale a pena a pesquisa.
+
+Resumo:
+- Conversamos sobre o que é um sistema distribuído;
+- Vimos que através de contextos delimitados podemos distribuir sistemas realmente complexos;
+- No caso de sistemas distribuídos, falamos que há a necessidade de uma camada anti-corrupção;
+- Vimos algumas referências para nos aprofundar no assunto de DDD.
+
+
+
 
 
 
