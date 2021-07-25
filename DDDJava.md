@@ -71,6 +71,21 @@ Resumo:
 
 ## 05. Contexto compartilhado  
 
+*Shared Kernel*  
+A utilização de um núcleo compartilhado tem suas vantagens e desvantagens.  
+É a forma mais fácil de possibilitar a comunicação entre contextos delimitados, mas nos tira boa parte da flexibilidade.  
+Aqui nesse artigo há uma revisão sobre Bounded Contexts e uma breve citação sobre [Shared Kernel](http://www.fabriciorissetto.com/blog/ddd-bounded-context/)  
+
+Por que não utilizar diretamente a classe de um evento, fazendo casting quando necessário?
+- Flexibilidade
+  Sem depender diretamente da classe, continuamos com um baixo acoplamento entre os contextos delimitados, nos permitindo estendê-los de forma independente.
+  
+Resumo:
+- Entendemos que os contextos devem ser independentes, mas precisam se comunicar de alguma forma;
+- Conhecemos o conceito de Shared Kernel, e vimos que há vantagens e desvantagens;
+- Utilizamos eventos de domínio para realizar parte da comunicação entre contextos;
+- Vimos que cada contexto pode fornecer seus Use Cases de forma independente.
+
 
 
 
