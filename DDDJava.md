@@ -34,3 +34,22 @@ Resumo:
 - Conhecemos o conceito de Aggregates;
 - Entendemos o que é uma invariante;
 - Vimos que persistência de Aggregates é um assunto complexo, pois envolve infraestrutura.
+
+
+## 03. Eventos
+
+Qual a motivação para termos eventos de domínio em nossa aplicação?  
+- Poder programar nossa aplicação para reagir a eventos de forma flexível.  
+  Trabalhando com eventos, o mesmo evento pode gerar várias ações, o que nos dá muita flexibilidade.  
+  
+*Eventos e frameworks*  
+É muito comum que os frameworks trabalhem com publicação de eventos.  
+Os eventos que os frameworks emitem por padrão não são eventos de domínio, porém nada nos impede de utilizar suas ferramentas a nosso favor para emitir nossos eventos de domínio.  
+
+Resumo:
+- Definimos o que é um evento;
+- Entendemos o que é um evento de domínio;
+- Aprendemos a implementar, emitir e reagir a um evento de domínio.
+
+
+

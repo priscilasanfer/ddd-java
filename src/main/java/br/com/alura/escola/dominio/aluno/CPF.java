@@ -1,5 +1,7 @@
 package br.com.alura.escola.dominio.aluno;
 
+import java.util.Objects;
+
 public class CPF {
 
 	private String numero;
@@ -15,5 +17,17 @@ public class CPF {
 	public String getNumero() {
 		return numero;
 	}
-	
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		CPF cpf = (CPF) o;
+		return numero.equals(cpf.numero);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(numero);
+	}
 }

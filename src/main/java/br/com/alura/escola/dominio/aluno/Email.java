@@ -1,5 +1,7 @@
 package br.com.alura.escola.dominio.aluno;
 
+import java.util.Objects;
+
 public class Email {
 	
 	private String endereco;
@@ -17,4 +19,16 @@ public class Email {
 		return endereco;
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Email email = (Email) o;
+		return endereco.equals(email.endereco);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(endereco);
+	}
 }
